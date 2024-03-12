@@ -3,7 +3,9 @@ This repository contains configuration files for LightBurn to get the WAZER wate
 
 So I have been working on getting my Wazer to work with LightBurn using the custom GCode device. I have also converted the materials library to a LightBurn library. The machine can be imported in the device’s menu and the library in the libraries panel.
 
-I am still working on finetuning this but so far it’s working great!
+I am still working on finetuning this but so far it’s working great!.
+
+I plan to also directly control the Wazer using the USB port on the Smoothieboard.
 
 ![Untitled](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/c7a7b379-587b-4bc7-90d8-d4cf26ec04f5)
 
