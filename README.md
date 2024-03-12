@@ -70,6 +70,9 @@ M1404
 
 The materials have lead ins enabled.
 
-![037dd67536477b468ced65f69f9b696a55240d8a_2_967x750](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/ff8ad663-94a4-413c-9d69-d2ccbacbdf9a)
-![c95de87f333fa29ef905e28e1cd9a190d59c0b34_2_630x750](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/8704d7a1-8c5c-4bd2-9619-49cb0e44bd0a)
+![image](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/5b154c51-493c-4823-b826-1d40a3a56619)
+
+![image](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/0387e46c-f9a1-4900-bd93-0c78f71fb231)
+
+![IMG20240312104247](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b7e4171c-f1e7-43e2-b2ad-6a3252418975)
 
