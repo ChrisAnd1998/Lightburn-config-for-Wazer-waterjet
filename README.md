@@ -12,6 +12,8 @@ Material Library:
 https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/main/WAZER%20Library.clb
 
 The **Start from** option should be set to **Absolute Coords**
+![image](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/30138b4d-0b23-434f-8a53-c81e09e9b781)
+
 
 GCode generated with LightBurn:
 (Rectangle with lead in)
