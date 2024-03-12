@@ -10,7 +10,7 @@ I am still working on finetuning this but so far it’s working great!
 
 <br><br>
 
-Machine: (This file can be imported in the devices menu)
+**Machine**: (This file can be imported in the devices menu)
 
 To download this file hit ctrl+s on the page below and save it as **WAZER.lbdev**
 
@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterj
 
 <br>
 
-Material Library: (This file can be loaded in the library panel)
+**Material Library**: (This file can be loaded in the library panel)
 
 To download this file hit ctrl+s on the page below and save it as **WAZER Library.clb**
 
