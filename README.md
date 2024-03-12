@@ -5,17 +5,20 @@ So I have been working on getting my Wazer to work with LightBurn using the cust
 
 I am still working on finetuning this but so far it’s working great!
 
+
 Machine: (This file can be imported in the devices menu)
 
 To download this file hit ctrl+s on the page below and save it as **WAZER.lbdev**
 
 https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/main/WAZER.lbdev
 
+
 Material Library: (This file can be loaded in the library panel)
 
 To download this file hit ctrl+s on the page below and save it as **WAZER Library.clb**
 
 https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/main/WAZER%20Library.clb
+
 
 The **Start from** option should be set to **Absolute Coords**
 
