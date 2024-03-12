@@ -5,11 +5,18 @@ So I have been working on getting my Wazer to work with LightBurn. Using the cus
 
 I am still working on finetuning this but so far it’s working great!
 
-The Start from option should be set to Absolute Coords
+Machine:
+https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/main/WAZER.lbdev
+
+Material Library:
+https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/main/WAZER%20Library.clb
+
+The **Start from** option should be set to **Absolute Coords**
 
 GCode generated with LightBurn:
 (Rectangle with lead in)
 
+```
 M1403
 M1405 X0.00 Y-0.00
 M1406 X1.00 Y-10.00
@@ -56,6 +63,9 @@ G4 S1.
 G90
 M1413 00:00:00
 M1404
+```
+
+The materials have lead ins enabled.
 
 ![037dd67536477b468ced65f69f9b696a55240d8a_2_967x750](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/ff8ad663-94a4-413c-9d69-d2ccbacbdf9a)
 ![c95de87f333fa29ef905e28e1cd9a190d59c0b34_2_630x750](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/8704d7a1-8c5c-4bd2-9619-49cb0e44bd0a)
