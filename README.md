@@ -5,6 +5,9 @@ So I have been working on getting my Wazer to work with LightBurn using the cust
 
 I am still working on finetuning this but so far it’s working great!
 
+![Untitled](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/c7a7b379-587b-4bc7-90d8-d4cf26ec04f5)
+
+
 <br><br>
 
 Machine: (This file can be imported in the devices menu)
@@ -83,9 +86,13 @@ M1404
 
 The materials have lead ins enabled.
 
-![image](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/5b154c51-493c-4823-b826-1d40a3a56619)
+<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/5b154c51-493c-4823-b826-1d40a3a56619" width="500">
 
-![image](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/0387e46c-f9a1-4900-bd93-0c78f71fb231)
+All Wazer Materials in a LightBurn Library.
 
-![IMG20240312104247](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b7e4171c-f1e7-43e2-b2ad-6a3252418975)
+<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/0387e46c-f9a1-4900-bd93-0c78f71fb231" width="500">
+
+Result.
+
+<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b7e4171c-f1e7-43e2-b2ad-6a3252418975" width="500">
 
