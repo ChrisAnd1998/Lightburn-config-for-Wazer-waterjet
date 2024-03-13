@@ -1,7 +1,7 @@
 # Lightburn-config-for-Wazer-waterjet
 This repository contains configuration files for LightBurn to get the WAZER waterjet working on LightBurn.
 
-⚠️ Warning! Use at your own risk. ⚠️
+⚠️ **Warning! Use at your own risk.** ⚠️
 
 So I have been working on getting my Wazer to work with LightBurn using the custom GCode device. I have also converted the materials library to a LightBurn library. The machine can be imported in the device’s menu and the library in the libraries panel.
 
@@ -103,7 +103,8 @@ The materials have lead ins enabled.
 All Wazer Materials in a LightBurn Library.<br>
 Select any material and hit the <b>Assign</b> button to apply the settings to the selected layer.
 <br>
-<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/0387e46c-f9a1-4900-bd93-0c78f71fb231" width="500">
+<img width="500" alt="Screenshot 2024-03-13 073206" src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b23fe4e8-962e-433a-a459-4636fd166848">
+
 
 <br>
 
