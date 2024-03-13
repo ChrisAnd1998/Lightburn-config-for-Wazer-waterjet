@@ -100,7 +100,7 @@ The materials have lead ins enabled.
 
 <br>
 <br>
-All Wazer Materials in a LightBurn Library.  
+All Wazer Materials in a LightBurn Library.<br>
 Select any material and hit the <b>Assign</b> button to apply the settings to the selected layer.
 <br>
 <img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/0387e46c-f9a1-4900-bd93-0c78f71fb231" width="500">
