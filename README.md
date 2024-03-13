@@ -42,6 +42,26 @@ The **Start from** option should be set to **Absolute Coords**
 
 ![image](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/30138b4d-0b23-434f-8a53-c81e09e9b781)
 
+
+<br>
+The materials have lead ins enabled.
+<br>
+<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/5b154c51-493c-4823-b826-1d40a3a56619" width="500">
+
+<br>
+<br>
+All Wazer Materials in a LightBurn Library.<br>
+Select any material and hit the <b>Assign</b> button to apply the settings to the selected layer.
+<br>
+<img width="500" alt="Screenshot 2024-03-13 073206" src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b23fe4e8-962e-433a-a459-4636fd166848">
+
+
+<br>
+
+Result.
+<br>
+<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b7e4171c-f1e7-43e2-b2ad-6a3252418975" width="500">
+
 <br><br>
 
 Below is an explanation and dissection of the WAZER G-code structure so that you can understand how WAZER is interpreting the series of commands that Wam generates. These are all critical for your WAZER to function corrrectly and safely:
@@ -141,22 +161,3 @@ G90
 M1413 00:00:00
 M1404
 ```
-<br>
-The materials have lead ins enabled.
-<br>
-<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/5b154c51-493c-4823-b826-1d40a3a56619" width="500">
-
-<br>
-<br>
-All Wazer Materials in a LightBurn Library.<br>
-Select any material and hit the <b>Assign</b> button to apply the settings to the selected layer.
-<br>
-<img width="500" alt="Screenshot 2024-03-13 073206" src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b23fe4e8-962e-433a-a459-4636fd166848">
-
-
-<br>
-
-Result.
-<br>
-<img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b7e4171c-f1e7-43e2-b2ad-6a3252418975" width="500">
-
