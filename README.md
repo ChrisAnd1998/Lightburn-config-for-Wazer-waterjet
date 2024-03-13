@@ -7,7 +7,9 @@ So I have been working on getting my Wazer to work with LightBurn using the cust
 
 I am still working on finetuning this but so far it’s working great!.
 
-I plan to also directly control the Wazer using the USB port on the Smoothieboard.
+USB Communication works except pressure valve and abrasive valve commands.
+It seems the Wazer needs to run through its safety screen before the pressure valve and abrasive valve can be controlled.
+So for now you can do a dry run and if it's correct you can put the gcode file on you SD card.
 
 ![Untitled](https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/c7a7b379-587b-4bc7-90d8-d4cf26ec04f5)
 
