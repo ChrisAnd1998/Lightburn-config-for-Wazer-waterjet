@@ -16,7 +16,7 @@
             "Laser2OffsetX": 0,
             "Laser2OffsetY": 0,
             "LastCamera": "",
-            "LastDevLibraryPath": "C:/Users/CNC/Desktop/WAZER Library.clb",
+            "LastDevLibraryPath": "",
             "MirrorX": false,
             "MirrorY": true,
             "Name": "Custom GCode",
