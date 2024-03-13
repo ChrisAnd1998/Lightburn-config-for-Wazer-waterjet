@@ -16,13 +16,19 @@ I plan to also directly control the Wazer using the USB port on the Smoothieboar
 
 **Machine**: (This file can be imported in the devices menu)
 
+<img width="283" alt="Screenshot 2024-03-13 072137" src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/8a682772-a6c2-45a7-801e-5824b7fc3a2f">
+
 To download this file hit ctrl+s on the page below and save it as **WAZER.lbdev**
 
 https://raw.githubusercontent.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/main/WAZER.lbdev
 
 <br>
+<br>
 
 **Material Library**: (This file can be loaded in the library panel)
+
+<img width="297" alt="Screenshot 2024-03-13 072243" src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/4a274c95-1e48-4a53-af5d-2d961cdbc9d2">
+
 
 To download this file hit ctrl+s on the page below and save it as **WAZER Library.clb**
 
@@ -87,16 +93,21 @@ G90
 M1413 00:00:00
 M1404
 ```
-
+<br>
 The materials have lead ins enabled.
-
+<br>
 <img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/5b154c51-493c-4823-b826-1d40a3a56619" width="500">
 
-All Wazer Materials in a LightBurn Library.
-
+<br>
+<br>
+All Wazer Materials in a LightBurn Library.  
+Select any material and hit the <b>Assign</b> button to apply the settings to the selected layer.
+<br>
 <img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/0387e46c-f9a1-4900-bd93-0c78f71fb231" width="500">
 
-Result.
+<br>
 
+Result.
+<br>
 <img src="https://github.com/ChrisAnd1998/Lightburn-config-for-Wazer-waterjet/assets/50437199/b7e4171c-f1e7-43e2-b2ad-6a3252418975" width="500">
 
