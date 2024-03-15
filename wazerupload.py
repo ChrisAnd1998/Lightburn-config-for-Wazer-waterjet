@@ -13,7 +13,7 @@ class SerialUploader:
         try:
             with open(file_path, 'r') as file:
                 file_content = file.read()
-                upload_command = f"upload {os.path.basename(file_path)}\n{file_content}\n\x04"
+                upload_command = f"upload wazerjob.gcode\n{file_content}\n\x04"
                 if self.serial_port.is_open:
                     self.serial_port.write(upload_command.encode())
         except Exception as e:
@@ -26,6 +26,7 @@ class SerialUploader:
             received_data = self.serial_port.readline().decode().strip()
             if received_data.startswith("uploaded"):
                 self.serial_port.write(b"M21\n")
+                self.serial_port.write(b"G91\n")
                 self.serial_port.write(b"G0 Y-1\n")
                 self.serial_port.write(b"G0 Y1\n")
                 self.serial_port.write(b"G0 Y-1\n")
@@ -47,6 +48,7 @@ def find_smoothie_port():
             print(f"Port: {port}, Response: {response}")  # Print the port and its response
             if "Build version:" in response:
                 smoothie_port = port
+                serial_port.write(b"G91\n")
                 serial_port.write(b"G0 Y-1\n")
                 serial_port.write(b"G0 Y1\n")
                 break
