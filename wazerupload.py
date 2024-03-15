@@ -26,8 +26,10 @@ class SerialUploader:
             received_data = self.serial_port.readline().decode().strip()
             if received_data.startswith("uploaded"):
                 self.serial_port.write(b"M21\n")
-                self.serial_port.write(b"G0 Y-10\n")
-                self.serial_port.write(b"G0 Y0\n")
+                self.serial_port.write(b"G0 Y-1\n")
+                self.serial_port.write(b"G0 Y1\n")
+                self.serial_port.write(b"G0 Y-1\n")
+                self.serial_port.write(b"G0 Y1\n")
                 messagebox.showinfo("Upload Complete", f"Successfully {received_data}!")
                 self.serial_port.close()
                 break
@@ -45,6 +47,8 @@ def find_smoothie_port():
             print(f"Port: {port}, Response: {response}")  # Print the port and its response
             if "Build version:" in response:
                 smoothie_port = port
+                serial_port.write(b"G0 Y-1\n")
+                serial_port.write(b"G0 Y1\n")
                 break
             serial_port.close()
         except Exception as e:
