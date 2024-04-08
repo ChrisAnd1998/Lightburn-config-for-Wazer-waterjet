@@ -53,7 +53,7 @@
                     "abort": "abort",
                     "air_off": " ",
                     "air_on": " ",
-                    "dwell": "M3\nM8\nG4 S{dwell}.",
+                    "dwell": "M3\nM8\nM1407 S{dwell}.\nG4 S{dwell}.",
                     "end_cmd": "M1413 00:00:00\nM1404",
                     "home": "$H",
                     "move_cut": "G1 [X]{x}[Y]-{y}[F]{speed}",
