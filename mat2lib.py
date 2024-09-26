@@ -51,7 +51,7 @@ for entry in data:
 xml_string += '</LightBurnLibrary>\n'
 
 # Write the XML string to a file
-with open(r'C:\Users\CNC\Desktop\materialdata.xml', 'w', encoding='utf-8') as xml_file:
+with open(r'C:\Users\CNC\Desktop\WAZER Library.clb', 'w', encoding='utf-8') as xml_file:
     xml_file.write(xml_string)
 
 print("XML data has been exported to materialdata.xml")
